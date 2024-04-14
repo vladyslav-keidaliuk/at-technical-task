@@ -44,7 +44,7 @@ namespace Tests.API
 
             Assert.IsNotNull(result);
             Assert.That(result.Count, Is.EqualTo(1));
-            Assert.That(result[0].UserName, Is.EqualTo("testuser"));
+            Assert.That(result[0].UserName, Is.EqualTo(userName));
         }
 
         [Test]
