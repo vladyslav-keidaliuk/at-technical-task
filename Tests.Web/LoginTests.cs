@@ -1,6 +1,4 @@
 using Business.Pages;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using static Core.SeleniumWebDriver;
 
 [assembly: LevelOfParallelism(1)]
